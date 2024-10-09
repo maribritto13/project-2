@@ -8,9 +8,9 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  font-size: larger;
+  font-size: 30px;
   font-style: italic;
-  position: fixed;
+  position: sticky;
   width: 100%;
   a {
     padding: 20px;
@@ -18,13 +18,13 @@ body {
 }
 
 .bottomnav {
-background-color: rgb(224, 160, 160);
+  background-color: rgb(224, 160, 160);
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  font-size: larger;
+  font-size: 25px;
   font-style: italic;
-  position: fixed;
+  position: sticky;
   bottom: 0;
   width: 100%;
   a {
@@ -45,14 +45,8 @@ a:hover {
 }
 
 body {
-  background-color: rgb(127, 215, 174);
+  background-color: rgb(106, 180, 145);
   height: 100%;
-}
-
-.header {
-background-color: #F1F1F1;
-text-align: center;
-padding: 20px;
 }
 
 .container {
@@ -73,6 +67,10 @@ padding: 20px;
   width: 1000px;
   height: 80vh;
   margin: 0 auto;
+  margin-top: 40px;
+  font-size: 18pt;
+  font-family:'Times New Roman', Times, serif;
+  display: flex;
 }
 
 .recipe {
@@ -82,11 +80,16 @@ padding: 20px;
 }
 
 .main {
-  background-color: blue;
+  background-color: rgb(219, 138, 38);
   grid-column: span 8;
+  text-align: center;
 }
 
 .sidebar {
   grid-column: span 4;
-  background-color: red;
+  background-color: rgb(219, 138, 38);
+}
+
+.intercontent {
+  width: 25%;
 }
