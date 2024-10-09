@@ -88,6 +88,7 @@ body {
 .sidebar {
   grid-column: span 4;
   background-color: rgb(219, 138, 38);
+  text-align: center;
 }
 
 .intercontent {
