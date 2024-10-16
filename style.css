@@ -47,8 +47,8 @@ body {
   }
 }
 
-a:link {
-  color:rgb(253, 249, 249);
+a {
+  color:rgb(253, 251, 251);
   background-color: transparent;
   text-decoration: none;
 }
@@ -77,6 +77,11 @@ body {
   margin-inline: auto;
 }
 
+.home-image img {
+width: 400px;
+border-radius: 20px;
+}
+
 .sub-container {
   padding-top: 20px;
   width: 1000px;
@@ -87,6 +92,7 @@ body {
   font-family:'Times New Roman', Times, serif;
   display: flex;
   text-align: left;
+  margin-bottom: 40px;
 }
 
 .recipe {
@@ -113,7 +119,12 @@ body {
   font-family: Georgia, 'Times New Roman', Times, serif;
   padding-left: 50px;
   padding-right: 50px;
-  margin-bottom: 20px;
+  /* margin-bottom: 20px; */
+}
+
+.sidebar img {
+  width: 100%;
+  height: auto;
 }
 
 .intercontent {
